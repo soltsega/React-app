@@ -32,7 +32,8 @@ ul {
   padding-left: 20px;
 }
 
-ul li:before {
+ul li::before {
+  /* Custom bullet point; you can also add bullet points after the text you want to add on */
   content: "• ";
   color: blue;
   font-size: 1rem;
